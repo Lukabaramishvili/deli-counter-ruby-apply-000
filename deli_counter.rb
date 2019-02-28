@@ -1,11 +1,11 @@
 # Write your code here.
 
 katz_deli = []
-
-
-def take_a_number(katz_deli, name)
-  katz_deli << name
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+count = 0
+def take_a_number(katz_deli)
+  count += 1
+  katz_deli.push(count)
+  puts "Welcome. You are number #{katz_deli.length} in line."
 end
 
 def now_serving(katz_deli)
